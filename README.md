@@ -28,7 +28,25 @@ A princípio, HTML é composto por **tags**, **elementos**, e **atributos**.
 
 > **Elementos**
 
+<p align="justify">
+    Em HTML, os Elementos referem-se ao conjunto das tags de abertura, fechamento, e o seu respectivo conteúdo adentro da estrutura.
+</p>
+
+<p align="justify">
+    <strong>Exemplo(s):</strong> <strong>&lt;p&gt;Olá, Mundo!&lt;/p&gt;</strong><br><br>Neste caso, esse é um <strong>elemento de parágrafo completo</strong>, cujo é interpretado pelo navegador e então exibe um texto na tela.
+</p>
+
 <br>
+
+> **Atributos**
+
+<p align="justify">
+    Em HTML, os atributos referem-se a <strong>comandos adicionais</strong> que podem ser aderidas a <strong>tag de abertura</strong> com o intuito de <strong>adicionar informações extras aos elementos</strong>. 
+</p>
+
+<p align="justify">
+    <strong>Exemplo(s):</strong> &lt;img <strong>src="foto.png alt ="Foto"</strong>&gt;<br><br>Neste caso, tanto "src", quanto "alt" são atributos da tag &lt;img&gt;. Nesse sentido, o atributo <strong>src="foto.png"</strong>, refere-se a um atributo aderido a tag de img cujo <strong>informa qual imagem o elemento deve demonstrar</strong>. Já o atributo <strong>alt="Foto"</strong> reponsabiliza-se por exibir um <strong>texto alternativo</strong> para caso a imagem não carregue.
+</p>
 
 ---
 
