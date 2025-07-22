@@ -54,3 +54,11 @@ A princípio, HTML é composto por **tags**, **elementos**, e **atributos**.
 
 > **&lt;!DOCTYPE html&gt;**
 
+> **&lt;head&gt;**
+
+> **&lt;meta&gt;**
+
+> **&lt;title&gt;**
+
+> **&lt;body&gt;**
+
