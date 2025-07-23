@@ -72,11 +72,37 @@ A princípio, HTML é composto por **tags**, **elementos**, e **atributos**.
 
 > **&lt;!DOCTYPE html&gt;**
 
+<p align="justify">
+    Na estrutura básica de todo documento HTML encontra-se o trecho <strong>"&lt;!DOCTYPE html&gt;"</strong> em seu código. Este comando é de suma importância, sendo a primeira linha do arquivo, pois responsabiliza-se pela declaração do tipo do documento para o navegador, indicando que se está escrito em HTML5.
+</p>
+
+> **&lt;html&gt;**
+
+<p align="justify">
+    Este trecho é referente ao elemento raiz do documento, tudo que for HTML deve estar dentro desta tag. Através dela, todo o conteúdo da página é encapsulado, indicando para o navegador que conteúdo dentro dela é HTML.
+</p>
+
 > **&lt;head&gt;**
+
+<p align="justify">
+    Essa tag contém informações sobre o documento que são de interesse somente para o navegador e outros serviços da web, não sendo exibido diretamente no corpo da página. Este espaço na estrutura <strong>é dedicado para o fornecimento de metadados sobre a página</strong>, links para estilos, script, e etc.
+</p>
 
 > **&lt;meta&gt;**
 
+<p align="justify">
+    A tag &lt;meta&gt; responsabiliza-se pela definição dos metadados sobre um documento HTML. Isto é, informações sobre os dados da página, como o título, o conjunto de caracteres (charset), o autor, etc.
+</p>
+
 > **&lt;title&gt;**
 
+<p align="justify">
+    A tag &lt;title&gt; responsabiliza-se pela definição de um título descritivo para a aba no navegador.
+</p>
+
 > **&lt;body&gt;**
+
+<p align="justify">
+    A tag &lt;body&gt; contém todo o corpo do documento que é exibido pelo navegador e visualizado na janela. Em outras palavras, refere-se a todo o conteúdo cujo é visível no site, isto inclúi textos, imagens, links, e etc.
+</p>
 
