@@ -1,0 +1,44 @@
+html {
+    background-color: #0D1117;
+    font-family: "Century Gothic";
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    background-color: #151B23;
+    border-color: #151B23;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+    color: white;
+}
