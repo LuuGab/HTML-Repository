@@ -69,6 +69,18 @@ button {
     font-size: 14px;
 }
 
+.forgot-senha {
+    font-family: "Century Gothic";
+    width: 100%;
+    padding: 2px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: right;
+    font-size: 12px;
+}
+
 .hr-separador {
   width: 80%;
   height: 1px;
