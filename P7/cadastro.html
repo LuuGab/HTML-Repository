@@ -16,14 +16,22 @@
     <main>
         <div>
             <fieldset>
-                <legend align="center">Login</legend>
+                <legend align="center">Cadastro</legend>
+                <input type="text" id="idnome" name="nome" placeholder="Nome"><br>
+                <input type="text" id="idusuario" name="usuario" placeholder="Usuário"><br>
                 <input type="email" id="idemail" name="email" placeholder="E-mail"><br>
-                <input type="password" id="idsenha" name="senha" placeholder="Senha">
-                <a href="forgotpassword.html" class="forgot-senha">Esqueci a senha</a>
+                <input type="password" id="idsenha" name="senha" placeholder="Senha"><br>
+                    
+                <div>
+                    <input type="radio" value="feminino" id="idfeminino" name="sexo">
+                    <label for="idfeminino">Feminino</label>
+                    <input type="radio" value="masculino" id="idmasculino" name="sexo">
+                    <label for="idmasculino">Masculino</label>
+                </div>
                 <br>
-                <a href="index.html" class="btn">Seguir</a>
+                <a href="login.html" class="btn">Seguir</a>
                 <hr class="hr-separador">
-                <a href="cadastro.html" class="btn">Voltar</a>
+                <a href="login.html" class="btn">Login</a>
             </fieldset>
         </div>
     </main>
